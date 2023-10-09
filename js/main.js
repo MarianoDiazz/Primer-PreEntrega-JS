@@ -71,7 +71,8 @@ const comprarHelado = () => {
         }
         else if (tipoCono === conoDoble) {
             total += precioConoDoble
-            let sabor1, sabor2
+            let sabor1 = ""
+            let sabor2 = ""
 
             for (let i = 1; i <= 2; i++) {
                 let sabor = null
